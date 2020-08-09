@@ -2,10 +2,15 @@
 <html>
  <head>
    <title>Sam Evans card</title>
+   <link rel="stylesheet" href="/Users/samevans/Desktop/GithubProject/business-card/stylesheet" />
  </head>
  <body>
 
   <h1 class = name>Sam Evans<span class = "Point">.</span></h1>
+
+  <p class="contact">Contact Me</p>
+  <p class="link"> Linkedin</p>
+  <p class="cv"> c.v <p>
 
  </body>
 </html>
