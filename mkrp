@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <title>Sam Evans card</title>
     <link rel="stylesheet" href="/Users/samevans/Desktop/GithubProject/business-card/stylesheet" />
   </head>
 
-  <body>
+<body>
+  <div class ="main">
+    <h1 class="name">Sam Evans<btn class="Point">.</btn> </h1>
+    <h5 class="title">Student at Caerleon Comprehensive</h5>
 
-    <h1 class=name>Sam Evans<btn class="Point">.</btn></h1>
-    <h5 class=title>Student at Caerleon Comprehensive</h5>
-
-    <div class=sub>
       <p class="contact">Contact Me</p>
-      <p class="link"> Linkedin</p>
+      <a href="https://www.linkedin.com/in/sam-evans-1327781a7" target = "_blank"> Linkedin </a>
       <p class="cv"> c.v </p>
     </div>
+
+ <div class = "footer">
+    <p>A Sam Evans Project</p>
+  </div>
 
 </body>
 
