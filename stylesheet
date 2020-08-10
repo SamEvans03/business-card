@@ -1,8 +1,13 @@
 h1 {
-color: black;
+  color: black;
+  position: center;
 }
-.point:hover {
+
+.Point:hover {
   cursor: pointer;
-  color : black
+  color: black;
 }
-backgroundcolor: white
+.Point {
+  color: red;
+  size: 4 em;
+}
