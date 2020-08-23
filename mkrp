@@ -9,14 +9,21 @@
   <div class ="main">
     <h1 class="name">Sam Evans<btn class="Point">.</btn> </h1>
     <h5 class="title">Student at Caerleon Comprehensive</h5>
+	</div>
 
-      <p class="contact">Contact Me</p>
-      <a href="https://www.linkedin.com/in/sam-evans-1327781a7" target = "_blank"> Linkedin </a>
-      <p class="cv"> c.v </p>
-    </div>
+  <div class ="sub">
+      <div class="sub__menu sub__menu--link">
+			<a href="https://www.linkedin.com/in/sam-evans-1327781a7" target = "_blank"> Linkedin </a>
+			</div>
+      <div class="sub__menu sub__menu--cv">
+      cv
+      </div>
+  </div>
 
  <div class = "footer">
     <p>A Sam Evans Project</p>
+		<p>circa. 23.08.20</p>
+
   </div>
 
 </body>
