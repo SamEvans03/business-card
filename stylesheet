@@ -1,14 +1,23 @@
+:root {
+  --bone: #D8D4C2;
+  --charc: #2b2d2f;
+  --fer-red: #ff2800;
+}
+
+
 body {
-  background-color: #D6D6D6;
+  background-color: var(--bone);
   display: grid;
   min-height: 100vh;
-  grid-template-rows: 1fr 10%;
-  grid-template-areas: "main"
+  grid-template-rows: 1fr 1fr 10%;
+  grid-template-areas:
+	                     "main"
+	                     "sub"
                        "footer";
 }
 
 h5 {
-  color: black;
+  color: var(--charc);
   text-align: center;
   margin: 0px;
   font-size: 1rem;
@@ -19,7 +28,7 @@ h5 {
 h1 {
   padding-top: 10%;
   font-size: 4rem;
-   color: black;
+   color: var(--charc);
   text-align: center;
   margin-bottom: 0px;
 
@@ -29,23 +38,31 @@ h1 + h5 {
       }
 
 .Point {
-  color: red;
-  font-size: 8rem;
+  color: var(--fer-red);
+  font-size: 6rem;
 
 }
 
 .Point:hover {
   cursor: pointer;
-  color: black;
+  color: var(--charc);
+
 }
 
 .main {
-  grid-area: content;
+  grid-area: "main";
   text-align: center;
 }
 
+.sub__menu{
+	grid-area: "sub";
+	text-align: center;
+	padding: 0 3rem;
+	display: none;
+
+}
 .footer{
-  grid-area: footer;
+  grid-area: "footer";
   background-color: #515C6B;
   color: white;
   text-align: right;
@@ -53,4 +70,5 @@ h1 + h5 {
   padding-right: 50px;
   font-size: 0.75em;
   background-size: cover;
+
 }
